@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue',Arial, Helvetica;
+}
+
+body{
+    background: linear-gradient(360deg , #EF32D9, #89FFFD);
+    background-size: 100% 200%;
+    text-align: center;
+}
+
+h1{
+    font-size: 55px;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+section{
+    background-color: #eeeaea;
+    border-radius: 10px;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    font-size: 25px;
+    border: 5px black solid;
+    box-shadow: 14px 20px rgba(0, 0, 0, 0.61);
+}
+
+p{
+    font-size: 35px;
+}
+
+input{
+    height: 30px;
+    width: 60%;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 3px solid black;
+}
+
+.sexo{
+    margin-bottom: 20px;
+}
+
+#mas , #fem{
+    width: 5%;
+    margin-top: 15px;
+}
+
+label{
+    font-size: 32px;
+}
+
+#btn{
+    height: 50px;
+    padding: 5px;
+    background: linear-gradient(180deg, #eaafc8, #654ea3);
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+#btn:hover{
+    color: white;
+}
+
+#resultado{
+    margin-top: 2px;
+}
+
+#resultado p {
+    font-size: 34px;
+}
+
+img{
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+/*Media Query para mobile*/
+
+@media screen and (max-width: 640px){
+    h1{
+        font-size: 48px;
+    }
+
+    section{
+        width: 100%;
+        box-shadow: none;
+    }
+    img{
+        width: 70%;
+    }
+}

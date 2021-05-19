@@ -1,0 +1,49 @@
+<!--DESENVOLVIDO POR THIAGO FERREIRA EM 19/05/2021-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/regular.min.css" integrity="sha512-Nqct4Jg8iYwFRs/C34hjAF5og5HONE2mrrUV1JZUswB+YU7vYSPyIjGMq+EAQYDmOsMuO9VIhKpRUa7GjRKVlg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade 🔢</h1>
+    </header>
+    
+    <section>
+        <div class="sexo">
+            <p>Qual é o seu sexo?</p>
+            <input type="radio" id="mas" name="radiosex">
+                <label for="mas">Masculino</label> &nbsp; &nbsp;
+            <input type="radio" id="fem" name="radiosex">
+                <label for="fem">Feminino</label> 
+        </div>
+
+        <div>
+            <p>Qual o seu ano de nascimento?</p>
+            <input type="number" name="anoDeNascimento" id="anoDeNascimento" min="0">
+        </div>
+
+        <div>
+            <input type="button" value="Verificar" id="btn" onclick= "verificação()">
+        </div>
+
+        <div id="resultado">
+            <p>Seu resultado aparecerá aqui! 💡 </p>
+        </div>
+
+        <div>
+            <img width="45%" id="imagem">
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="JavaScript/main.js"></script>
+</body>
+</html>
