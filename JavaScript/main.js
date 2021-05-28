@@ -16,43 +16,43 @@ function verificação(){
         if (sex[0].checked) {
             genero = "homem"
                 if ( idade >= 0 && idade <= 4){
-                    fotin.setAttribute('src' , "/Imagens/bebe-m.jpg");
+                    fotin.setAttribute('src' , "Imagens/bebe-m.jpg");
                 } // bebe
                 else if ( idade >= 5 && idade <= 12){
-                    fotin.setAttribute('src' , '/Imagens/menino.jpg');
+                    fotin.setAttribute('src' , 'Imagens/menino.jpg');
                 } // criança
                 else if ( idade >= 13 && idade <= 17){
-                    fotin.setAttribute('src' , '/Imagens/rapaz.jpg');
+                    fotin.setAttribute('src' , 'Imagens/rapaz.jpg');
                 } // adolescente
                 else if ( idade >= 18 && idade <= 29){
-                    fotin.setAttribute('src' , '/Imagens/adulto-m1.jpg');
+                    fotin.setAttribute('src' , 'Imagens/adulto-m1.jpg');
                 } // jovem adulto
                 else if ( idade >= 30 && idade <= 59){
-                    fotin.setAttribute('src' , '/Imagens/adulto-m2.jpg');
+                    fotin.setAttribute('src' , 'Imagens/adulto-m2.jpg');
                 } // adulto
                 else if ( idade >= 60){
-                    fotin.setAttribute('src' , '/Imagens/IDOSO.jpg');
+                    fotin.setAttribute('src' , 'Imagens/IDOSO.jpg');
                 } // idoso
         } 
         else if (sex[1].checked) {
             genero = "mulher"
             if ( idade >= 0 && idade <= 4){
-                fotin.setAttribute('src' , "/Imagens/bebe-f.jpg");
+                fotin.setAttribute('src' , "Imagens/bebe-f.jpg");
             } // bebe
             else if ( idade >= 5 && idade <= 12){
-                fotin.setAttribute('src' , '/Imagens/menina.jpg');
+                fotin.setAttribute('src' , 'Imagens/menina.jpg');
             } // criança
             else if ( idade >= 13 && idade <= 17){
-                fotin.setAttribute('src' , '/Imagens/garota.jpg');
+                fotin.setAttribute('src' , 'Imagens/garota.jpg');
             } // adolescente
             else if ( idade >= 18 && idade <= 29){
-                fotin.setAttribute('src' , '/Imagens/adulto-f1.jpg');
+                fotin.setAttribute('src' , 'Imagens/adulto-f1.jpg');
             } // jovem adulto
             else if ( idade >= 30 && idade <= 59){
-                fotin.setAttribute('src' , '/Imagens/adulto-f2.jpg');
+                fotin.setAttribute('src' , 'Imagens/adulto-f2.jpg');
             } // adulto
             else if ( idade >= 60){
-                fotin.setAttribute('src' , '/Imagens/IDOSA.jpg');
+                fotin.setAttribute('src' , 'Imagens/IDOSA.jpg');
             } // idoso
         } 
         else {
