@@ -9,7 +9,7 @@ O **Verificador de Idade** é um projeto que usufrui 3 tecnologias fundamentais 
 - CSS: Design do site.
 - JavaScript: Usado na funcionalidade do mesmo.
 
-## Link do projeto na web: http://verificadordeidade.cf/
+## Link do projeto na web: https://iamthiagoo.github.io/Verificador-De-Idade/
 
 ## Imagem do Projeto
 ![Imagem do Projeto](https://user-images.githubusercontent.com/69599810/118853683-6433ce80-b8aa-11eb-8d73-79919ea62085.jpg)
